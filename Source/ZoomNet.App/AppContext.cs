@@ -73,5 +73,11 @@ namespace ZoomNet.App
 		/// </summary>
 		[JsonPropertyName("entitlements")]
 		public object[] Entitlements { get; set; }
+
+		/// <summary>
+		/// Gets or sets the role to the current meeting.
+		/// </summary>
+		[JsonPropertyName("attendrole")]
+		public string AttendeeRole { get; set; }
 	}
 }
